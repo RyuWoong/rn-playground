@@ -11,7 +11,10 @@ import {
   View,
 } from "react-native";
 
-const MenuList: Menu[] = [{ id: "scrollInput", title: "Auto Scroll to Input" }];
+const MenuList: Menu[] = [
+  { id: "inputInScrollView", title: "Auto Scroll to Input" },
+  { id: "skiaChart", title: "skiaChart" },
+];
 
 const keyExtractor = (item: Menu) => `${item.id}`;
 
